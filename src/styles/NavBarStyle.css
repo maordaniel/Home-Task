@@ -1,0 +1,51 @@
+nav {
+    height: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    align-items: center;
+    background: #3f51b5;
+    margin-bottom: 1%;
+}
+
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    text-decoration: none;
+    user-select: none;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    width: 89%;
+    height: 100%;
+    justify-content: center;
+}
+
+.back-button{
+    display: flex;
+    align-items: center;
+    width: 5%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.theme-button{
+    display: flex;
+    justify-content: flex-end;
+    width: 5%;
+}
+
+.link {
+    color: #0e0e0e;
+}
+
+.link-active {
+    color: #ffffff;
+    background: #5187ec;
+}

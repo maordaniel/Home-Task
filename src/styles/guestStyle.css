@@ -1,0 +1,14 @@
+.guest-container{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.guest-title{
+    margin-right: 5%;
+}
+
+
+.add-guest{
+    margin-left: 1%;
+}
