@@ -15,8 +15,8 @@ import { PaletteType } from '@material-ui/core';
 function Router(){
   useEffect(() =>{
     const storedTheme = localStorage.getItem("theme");
-    setIsDarkTheme(storedTheme !== 'light');
-
+    if(storedTheme !== null)
+      setIsDarkTheme(storedTheme !== 'light');
   }, []);
 
   const NotFound = () => (
